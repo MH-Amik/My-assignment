@@ -15,7 +15,7 @@ padding: 0;
     font-size: 50px;
     border-left: 4px solid tomato;
 }
-.focus-item span{
+ span{
     color: tomato;
 }
 .intro{
@@ -31,4 +31,32 @@ padding: 0;
 .focus-item img{
     width: 100%;
     height: fit-content;
+}
+.mission-area{
+    display: flex;
+    margin: 2% 2%; 
+}
+#mission-header{
+    font-size: 60px;
+    text-align: center;
+}
+.mission-item{
+    width: 30%;
+    padding: 3% 4%;
+    font-size: 12px;
+    border-radius: 15%;
+    margin: 2%;
+}
+.mission-item img{
+    width: auto;
+    height: 10em;
+}
+.mission{
+    background-color: lightblue;
+}
+.vission{
+    background-color: lightpink;
+}
+.goal{
+    background-color: lightsalmon;
 }

@@ -1,13 +1,12 @@
 body{
     font-family: 'Playfair Display', serif;
-font-family: 'Poppins', sans-serif;
-margin: 0;
-padding: 0;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 .focus-area{
     display: flex;
 }
-
 .focus-item{
     width: 50%;
 }
@@ -15,7 +14,7 @@ padding: 0;
     font-size: 50px;
     border-left: 4px solid tomato;
 }
- span{
+span{
     color: tomato;
 }
 .intro{
@@ -38,7 +37,7 @@ padding: 0;
 }
 #mission-header{
     font-size: 60px;
-    text-align: centers;
+    text-align: center;
 }
 .mission-item{
     width: 30%;
@@ -59,4 +58,42 @@ padding: 0;
 }
 .goal{
     background-color: lightsalmon;
+}
+.global{
+    display: flex;
+}
+.global-item{
+    width: 50%;
+    margin: 2% 2%;
+    padding: 2% 6%; 
+}
+.global-item img{
+    width: 26vw;
+    height: 40vh;
+    padding-left: 15%;
+}
+.new-sec{
+    display: flex;    
+}
+.new-item{
+    width: 50%;
+    margin: 3% 3%;
+    padding: 2% 2%;
+    padding-left: 15%;
+}
+.new-item img{
+    width: 26vw;
+    height: 40vh;
+}
+.new-item h1{
+    font-size: 2em;
+}
+footer{
+    background-color: black;
+    padding: 3% 4%;
+    color: white;
+    text-align: center;
+}
+footer h1{
+    font-family: 'Tilt Neon', sans-serif;
 }
